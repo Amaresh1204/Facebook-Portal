@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Facebook_icon.png">
+    <title>Facebook-Login or Sign Up</title>
+</head>
+<body class="bg-gray-100">
+    <div class="container mt-48 flex mx-auto items center justify-center">
+        <div class="left w-1/3 mx-10">
+            <img src="Facebook Tittle.svg" class="w-80" alt="Facebook Logo">
+            <p class="text-3xl mx-6">Facebook helps you connect and share with friends and loved ones.</p>
+        </div>
+        <div class="right flex flex-col bg-white p-8 rounded-xl w-1/4 text-lg relative">
+            <input class="px-4 h-12 my-2 border border-1 rounded-lg outline-blue-600 border-gray-200" type="text" placeholder="Email or Phone number">
+            <input  class="px-4 h-12 my-2 border border-1 rounded-lg outline-blue-600 border-gray-200" type="password" placeholder="Password">
+            <button class="bg-blue-600 text-white font-bold rounded-md py-3 my-2 text-xl hover:bg-blue-700">Login</button>
+            <span class=" text-blue-600 text-sm text-center my-2 cursor-pointer hover:underline">Forgot your password?
+            </span>
+            <hr class="my-2">
+            <button class="bg-green-600 text-white font-bold rounded-md p-3 my-2 text-xl w-fit mx-auto hover:bg-green-700">Create a new account</button>
+        <span class="absolute -bottom-12 text-sm"><span class="font-bold hover:underline hover:cursor">Create a page</span> for a famous person, brand or bussiness
+        </span>
+        </div>
+    </div>
+</body>
+</html>
+<!--
+    Steps to use Tailwind css Project in Terminal
+1.npm init -y
+2.npm install -D tailwindcss postcss autoprefixer
+3.npx tailwindcss init -p   //p is for postcss file getting directely//
+4.In tailwind css keep astrek in contents "*".
+5.In package.json in scripts change as "start":"vite"  manager.
+6.npm i vite //For building Tools//
+7.Create style.css and paste 3 tailwind components to it.
+8.Finally npm run start for hosting server
+-->
